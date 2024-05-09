@@ -2,42 +2,48 @@ import React, {Component} from "react";
 import { Text, View, StyleSheet, Dimensions, ImageBackground, Image, Button, Alert} from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 
-class Home extends Component{
-    render() {
-        return(
-            <LinearGradient 
-				start={{x: 0, y: 0}} end={{x: 1, y: 0}} 
-				colors={['#7cb0f8', '#e75fa1', '#f89d81', "#f29b91", "#e561c2", "#fdd78c", "#bdde63"]}
-				style={styles.container}>
+export default function Home({navigation}) {
+	return(
+		<LinearGradient 
+			start={{x: 0, y: 0}} end={{x: 1, y: 0}} 
+			colors={['#7cb0f8', '#e75fa1', '#f89d81', "#f29b91", "#e561c2", "#fdd78c", "#bdde63"]}
+			style={styles.container}>
 
-                <View style={styles.glassContainer}>
-                    <View style={styles.navbar}>
-                        <View style={styles.logo}>
-                            <Text style={styles.name}>Culture4Kids</Text>
-                        </View>
-                    </View>
-                    <View style={styles.content}>
-                        <View style={styles.main}>
-                            <Text style={styles.heading}>Xin chào chào các bạn! ,{"\n"}Hãy khám phá Việt Nam cùng chúng mình nhé!</Text>
-                            <Text style={styles.paragraph}>
-                            Ngoài việc kế thừa những giá trị văn hóa tốt đẹp mà cha ông đã để lại, giới trẻ còn mang trong mình sứ mệnh tìm tòi học hỏi, sáng tạo, lan tỏa để vừa gìn giữ, vừa phát triển những giá trị văn hóa đó &#x2764;.
-                            </Text>
-                        </View>
-                        <View style={styles.imageWrapper}>
-                            <Image style={styles.image} source={require('../image/logo.png')} />
-							<Button title="Bắt đầu" onPress={() => { Alert.alert("Oke oke") }} />
-                        </View>
-                    </View>
-                </View>
-            </LinearGradient>
-        );
-    }
+			<View style={styles.glassContainer}>
+				<View style={styles.navbar}>
+					<View style={styles.logo}>
+						<Text style={styles.name}>Culture4Kids</Text>
+					</View>
+				</View>
+				<View style={styles.content}>
+					<View style={styles.main}>
+						<Text style={styles.heading}>Xin chào các bạn! ,{"\n"}Hãy khám phá Việt Nam cùng chúng mình nhé! 🚀</Text>
+						<Text style={styles.paragraph}>
+						Ngoài việc kế thừa những giá trị văn hóa tốt đẹp mà cha ông đã để lại, giới trẻ còn mang trong mình sứ mệnh tìm tòi học hỏi, sáng tạo, lan tỏa để vừa gìn giữ, vừa phát triển những giá trị văn hóa đó &#x2764;.
+						</Text>
+					</View>
+					<View style={styles.imageWrapper}>
+						<View  style={styles.image}>
+							<ImageBackground style={styles.background} resizeMode="cover" source={require('../image/logo.png')}>
+								<Text></Text>
+							</ImageBackground>
+						</View>
+						<Button title="Bắt đầu" 
+							onPress={
+								()=> navigation.navigate("Map")
+							} 
+						/>
+					</View>
+				</View>
+			</View>
+		</LinearGradient>
+	);
 }
 
 const styles = StyleSheet.create({
     container: {
-		width: Dimensions.get("window").width,
-		height: Dimensions.get("window").height,
+        width: Dimensions.get("window").width,
+        height: Dimensions.get("window").height,
     },
     glassContainer: {
         margin: "8%",
@@ -49,14 +55,14 @@ const styles = StyleSheet.create({
 		backgroundColor: "rgba(0, 0, 0, 0.56)"
     },
     navbar: {
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      alignItems: 'center',
+		flexDirection: 'row',
+		justifyContent: 'space-between',
+		alignItems: 'center',
     },
     logo: {
-      flex: 1,
-	  marginTop: 5,
-	  marginLeft: 20,
+		flex: 1,
+		marginTop: 5,
+		marginLeft: 20,
     },
 	name:{
 		fontSize:24,
@@ -95,11 +101,12 @@ const styles = StyleSheet.create({
 		marginBottom: 10
     },
     image :{
-        resizeMode: 'cover',
-        height: "50%",
-        width: "60%",
+        height: "70%",
+        width: "80%",
 		marginBottom: 20
-    }
-  });
-
-export default Home;
+    },
+	background: {
+		height: "100%",
+        width: "100%",
+	}
+});
