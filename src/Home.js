@@ -17,7 +17,7 @@ export default function Home({navigation}) {
 				</View>
 				<View style={styles.content}>
 					<View style={styles.main}>
-						<Text style={styles.heading}>Xin chào các bạn! ,{"\n"}Hãy khám phá Việt Nam cùng chúng mình nhé! 🚀</Text>
+						<Text style={styles.heading}>Xin chào các bạn! 👋,{"\n"}Hãy khám phá Việt Nam cùng chúng mình nhé! 🚀</Text>
 						<Text style={styles.paragraph}>
 						Ngoài việc kế thừa những giá trị văn hóa tốt đẹp mà cha ông đã để lại, giới trẻ còn mang trong mình sứ mệnh tìm tòi học hỏi, sáng tạo, lan tỏa để vừa gìn giữ, vừa phát triển những giá trị văn hóa đó &#x2764;.
 						</Text>
