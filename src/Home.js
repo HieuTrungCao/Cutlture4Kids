@@ -24,7 +24,11 @@ export default function Home({navigation}) {
 					</View>
 					<View style={styles.imageWrapper}>
 						<View  style={styles.image}>
-							<ImageBackground style={styles.background} resizeMode="cover" source={require('../image/logo.png')}>
+							<ImageBackground 
+								style={styles.background} 
+								resizeMode="stretch" 
+								source={require('../image/logo.png')}
+							>
 								<Text></Text>
 							</ImageBackground>
 						</View>
