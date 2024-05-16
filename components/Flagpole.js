@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function Model(props) {
+export default function Flagpole(props) {
   const { nodes, materials } = useGLTF(require('../assets/Flagpole.glb'))
   return (
     <group {...props} dispose={null}>
