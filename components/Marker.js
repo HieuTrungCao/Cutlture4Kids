@@ -2,7 +2,7 @@
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function Model(props) {
+export default function Marker(props) {
   const { nodes, materials } = useGLTF(require('../assets/Marker.glb'))
   return (
     <group {...props} dispose={null}>

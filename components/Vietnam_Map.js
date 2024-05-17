@@ -1,14 +1,10 @@
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function Model(props) {
+export default function Vietnam_Map(props) {
   const { nodes, materials } = useGLTF(require("../assets/Vietnam_Map.glb"))
   return (
-    <group {...props} dispose={null} 
-      scale={1.25} 
-      position={[1, -6, 0]}
-      rotation={[1.57, 0, 0]}  
-    >
+    <group {...props} dispose={null}>
       <mesh
         castShadow
         receiveShadow
