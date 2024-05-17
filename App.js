@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Home from './src/Home';
 import Map from './src/Map';
+import Info from './src/Info';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +23,13 @@ export default function App() {
 			<Stack.Screen 
 				name='Map' 
 				component={Map}
+				options={{
+					headerShown: false
+				}}
+			/>
+			<Stack.Screen 
+				name='Info' 
+				component={Info}
 				options={{
 					headerShown: false
 				}}
