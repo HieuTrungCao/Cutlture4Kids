@@ -1,11 +1,13 @@
-import { Canvas, extend } from "@react-three/fiber/native";
-import { Component, Suspense } from "react";
-import { Alert, Button, Dimensions, ImageBackground, SafeAreaView, StyleSheet, View } from "react-native";
+import { Canvas } from "@react-three/fiber/native";
+import { Suspense } from "react";
+import { Dimensions, ImageBackground, SafeAreaView, StyleSheet, View } from "react-native";
 import useControls from "r3f-native-orbitcontrols";
-import { Text, Text3D } from "@react-three/drei/native";
+import { Text3D } from "@react-three/drei/native";
 
 import Vietnam_Map from "../components/Vietnam_Map.js"
 import Marker from "../components/Marker.js";
+
+import CONST from "./Constant.js";
 
 import fontPath from "../font/Roboto Medium_Regular.json";
 
@@ -51,7 +53,7 @@ export default function Map({navigation}){
                                 scale={0.1}
                                 position={[-0.3, 0.5, 0.1]}
                                 onClick={
-                                ()=>{console.log("Pagoda")}
+                                    ()=> {navigation.navigate("Info", {name: CONST.ONE_PILLAR_PAGODA_NAME})}
                                 }
                             />
                         </Suspense>
@@ -76,7 +78,7 @@ export default function Map({navigation}){
                                 scale={0.1}
                                 position={[-1, -1, 0.1]}
                                 onClick={
-                                ()=>{console.log("Pagoda")}
+                                ()=> {navigation.navigate("Info", {name: CONST.HO_CITADEL_NAME})}
                                 }
                             />
                         </Suspense>
@@ -101,7 +103,7 @@ export default function Map({navigation}){
                                 scale={0.1}
                                 position={[6, -15.7, 0.1]}
                                 onClick={
-                                ()=>{console.log("Pagoda")}
+                                ()=>{navigation.navigate("Info", {name: CONST.FLAGPOLE_NAME})}
                                 }
                             />
                         </Suspense>
