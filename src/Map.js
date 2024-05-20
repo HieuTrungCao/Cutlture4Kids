@@ -36,7 +36,7 @@ export default function Map({navigation}){
                         {/* One pilar pagoda */}
                         <Suspense 
                             style={styles.marker}
-                            onClick={ ()=> {navigation.navigate("Info", {name: CONST.ONE_PILLAR_PAGODA_NAME_VI})}}
+                            onClick={ ()=> {navigation.navigate("Info", {name: CONST.ONE_PILLAR_PAGODA_NAME})}}
                         >
                             <Text3D
                                 font={fontPath}
@@ -47,7 +47,7 @@ export default function Map({navigation}){
                                 position={[-0.3, 0.8, 0.1]}
                                 size={2}
                                 height={0}
-                                onClick={()=> {navigation.navigate("Info", {name: CONST.ONE_PILLAR_PAGODA_NAME_VI})}}
+                                onClick={()=> {navigation.navigate("Info", {name: CONST.ONE_PILLAR_PAGODA_NAME})}}
                             >
                                 Chùa một cột
                                 <meshBasicMaterial color="red" />
@@ -55,14 +55,14 @@ export default function Map({navigation}){
                             <Marker 
                                 scale={0.1}
                                 position={[-0.3, 0.5, 0.1]}
-                                onClick={()=> {navigation.navigate("Info", {name: CONST.ONE_PILLAR_PAGODA_NAME_VI})}}
+                                onClick={()=> {navigation.navigate("Info", {name: CONST.ONE_PILLAR_PAGODA_NAME})}}
                             />
                         </Suspense>
 
                         {/* Ho's citadel */}
                         <Suspense 
                             style={styles.marker}
-                            onClick={()=> {navigation.navigate("Info", {name: CONST.HO_CITADEL_NAME_VI})}}
+                            onClick={()=> {navigation.navigate("Info", {name: CONST.HO_CITADEL_NAME})}}
                         >
                             <Text3D
                                 font={fontPath}
@@ -73,7 +73,7 @@ export default function Map({navigation}){
                                 position={[-1, -0.7, 0.1]}
                                 size={2}
                                 height={0}
-                                onClick={()=> {navigation.navigate("Info", {name: CONST.HO_CITADEL_NAME_VI})}}
+                                onClick={()=> {navigation.navigate("Info", {name: CONST.HO_CITADEL_NAME})}}
                             >
                                 Thành nhà Hồ
                                 <meshBasicMaterial color="red" />
@@ -81,14 +81,14 @@ export default function Map({navigation}){
                             <Marker 
                                 scale={0.1}
                                 position={[-1, -1, 0.1]}
-                                onClick={()=> {navigation.navigate("Info", {name: CONST.HO_CITADEL_NAME_VI})}}
+                                onClick={()=> {navigation.navigate("Info", {name: CONST.HO_CITADEL_NAME})}}
                             />
                         </Suspense>
 
                         {/* Flagpole */}
                         <Suspense 
                             style={styles.marker}
-                            onClick={()=>{navigation.navigate("Info", {name: CONST.FLAGPOLE_NAME_VI})}}
+                            onClick={()=>{navigation.navigate("Info", {name: CONST.FLAGPOLE_NAME})}}
                         >
                             <Text3D
                                 font={fontPath}
@@ -99,7 +99,7 @@ export default function Map({navigation}){
                                 position={[6, -15.4, 0.1]}
                                 size={2}
                                 height={0}
-                                onClick={()=>{navigation.navigate("Info", {name: CONST.FLAGPOLE_NAME_VI})}}
+                                onClick={()=>{navigation.navigate("Info", {name: CONST.FLAGPOLE_NAME})}}
                             >
                                 Cột cờ Trường Sa
                                 <meshBasicMaterial color="red" />
@@ -107,7 +107,7 @@ export default function Map({navigation}){
                             <Marker 
                                 scale={0.1}
                                 position={[6, -15.7, 0.1]}
-                                onClick={()=>{navigation.navigate("Info", {name: CONST.FLAGPOLE_NAME_VI})}}
+                                onClick={()=>{navigation.navigate("Info", {name: CONST.FLAGPOLE_NAME})}}
                             />
                         </Suspense>
                     </Canvas>
