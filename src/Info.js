@@ -102,7 +102,10 @@ export default function Info({ navigation, route }) {
                 navigation.navigate("Map");
               }}
             />
-            <Button style={styles.ar_button} title="     AR       " />
+            <Button style={styles.ar_button} 
+				title="     AR       " 
+				onPress={()=>{navigation.navigate("AR_Page", {name: route.params.name})}}
+			/>
             <Button
               style={styles.game_button}
               title="   Chơi    "

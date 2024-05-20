@@ -7,6 +7,7 @@ import Home from "./src/Home";
 import Map from "./src/Map";
 import Info from "./src/Info";
 import Quiz from "./src/Quiz";
+import AR_Page from "./src/ar_page";
 
 const Stack = createNativeStackNavigator();
 
@@ -42,6 +43,13 @@ export default function App() {
             headerShown: false,
           }}
         />
+		<Stack.Screen 
+			name='AR_Page' 
+			component={AR_Page}
+			options={{
+				headerShown: false
+			}}
+		/>
       </Stack.Navigator>
       <StatusBar style="auto" />
     </NavigationContainer>
