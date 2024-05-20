@@ -5,13 +5,14 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Home from './src/Home';
 import Map from './src/Map';
+import Quiz from './src/Quiz';
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
     <NavigationContainer style={styles.container}>
-		<Stack.Navigator initialRouteName='Home'>
+		<Stack.Navigator initialRouteName='Quiz'>
 			<Stack.Screen 
 				name="Home" 
 				component={Home}
@@ -22,6 +23,13 @@ export default function App() {
 			<Stack.Screen 
 				name='Map' 
 				component={Map}
+				options={{
+					headerShown: false
+				}}
+			/>
+			<Stack.Screen
+				name='Quiz'
+				component={Quiz}
 				options={{
 					headerShown: false
 				}}
