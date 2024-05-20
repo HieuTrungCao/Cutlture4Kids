@@ -1,0 +1,211 @@
+
+{
+    "chua1cot": [
+        {
+            "question": "Chùa một cột được xây dựng dưới thời vua nào ?",
+            "answers": ["Vua Lý Thái Tông", "Vua Trần Nhân Tông", "Vua Lê Thánh Tông", "Vua Lý Thái Tổ"],
+            "correct": "Vua Lý Thái Tông"
+        }, 
+        {
+            "question": "Đâu không phải là một tên gọi dùng để chỉ chùa Một Cột ?",
+            "answers": ["Liên Hoa Đài", "Diên Hựu Tự", "Chùa Mật", "Hương Sơn"],
+            "correct": "Hương Sơn"
+        },
+        {
+            "question": "Chùa một cột được xây dựng để ghi nhớ công ơn, ân đức của ai ?",
+            "answers": ["Phật Bà Quan Âm", "Đức Phật Thích Ca Mâu Ni", "Vua Lý Thái Tổ", "Đức Phật A Di Đà"],
+            "correct": "Phật Bà Quan Âm"
+        },
+        {
+            "question": "Hồ Linh Chiểu được xây dựng vào thời vua nào?",
+            "answers": ["Thời Vua Lý Thánh Tông", "Thời Vua Lý Nhân Tông", "Thời Vua Lý Huệ Tông", "Thời Vua Lý Thái Tông"],
+            "correct": "Thời vua Lý Nhân Tông"
+        },
+        {
+            "question": "Cột chùa có đường kính bao nhiêu?",
+            "answers": ["5m", "1m", "1.2m", "10m"],
+            "correct": "1.2m"
+        },
+        {
+            "question": "Quần thể Chùa Một Cột vinh dự được công nhận là Di tích lịch sử kiến trúc nghệ thuật Quốc gia năm bao nhiêu?",
+            "answers": ["1975", "1945", "1954", "1962"],
+            "correct": "1962"
+        },
+        {
+            "question": " Chùa một lần nữa được Tổ chức Kỷ lục Châu Á xác lập là 'Ngôi chùa có kiến trúc độc đáo nhất Châu Á' năm bao nhiêu?",
+            "answers": ["1990", "2012", "2016", "2000"],
+            "correct": "2012"
+        },
+        {
+            "question": "Chùa một cột được xây dựng năm nào?",
+            "answers": ["2024", "1049", "1113", "879"],
+            "correct": "1049"
+        },
+        {
+            "question": "Cột trụ bằng đá cao bao nhiêu mét?",
+            "answers": ["4m", "2m", "1.5m", "10m"],
+            "correct": "2m"
+        },
+        {
+            "question": "Chùa một cột được cải tạo và mở rộng năm nào?",
+            "answers": ["2010", "2000", "1105", "1190"],
+            "correct": "1105"
+        },
+        {
+            "question": "Chùa cột bị phá hủy bởi bom đạn chiến tranh vào năm nào?",
+            "answers": ["1945", "1954", "1975", "1968"],
+            "correct": "1954"
+        }
+    ],
+    "thanhnhaho": [
+        {
+            "question": "Thành nhà Hồ được xây dựng dưới thời nào?",
+            "answers": ["Thời nhà Hồ", "Thời nhà Trần", "Thời nhà Lý", "Thời nhà Lê"],
+            "correct": "Thời nhà Trần"
+        },
+        {
+            "question": "Thành nhà Hồ nằm ở tỉnh nào?",
+            "answers": ["Thanh Hóa", "Hà Nội", "Bắc Giang", "Thừa Thiên Huế"],
+            "correct": "Thanh Hóa"
+        },
+        {
+            "question": "Thành nhà Hồ được Unesco công nhận là di sản văn hóa thế giới vào năm nào?",
+            "answers": ["2010", "2011", "2012", "2013"],
+            "correct": "2011"
+        },
+        {
+            "question": "Thành nhà Hồ đã được Bộ Văn hoá - Thể thao và Du lịch xếp hạng là di tích cấp Quốc gia vào năm nào?",
+            "answers": ["1972", "1984", "1962", "1919"],
+            "correct": "1962"
+        },
+        {
+            "question": "Thành nhà Hồ được xây dựng năm nào?",
+            "answers": ["1100", "1390", "1410", "1397"],
+            "correct": "1397"
+        },
+        {
+            "question": "Thành nhà Hồ được xây dựng trong bao nhiêu lâu?",
+            "answers": ["nửa năm", "một năm", "ba tháng", "một tuần"],
+            "correct": "ba tháng"
+        },
+        {
+            "question": "Nguyên liệu chính dùng để xây thành nhà Hồ là gì?",
+            "answers": ["Xi măng", "Bê tông", "Gỗ", "Đá"],
+            "correct": "Đá"
+        },
+        {
+            "question": "Ai là người chỉ huy xây dựng đền nhà Hồ?",
+            "answers": ["Hồ Nguyên Trừng", "Hồ Quý Ly", "Trần Thủ Độ", "Hồ Hán Thương"],
+            "correct": "Hồ Quý Ly"
+        },
+        {
+            "question": "Thành nhà Hồ có tên gọi khác là gì?",
+            "answers": ["Thành Tây Ninh", "Thành Tây Đô", "Thành Tây Bắc", "Thành Tây Tạng"],
+            "correct": "Thành Tây Đô"
+        }
+    ],
+    "cotcotruongsa": [
+        {
+            "question": "Bên cạnh tên quần đảo, cột mốc còn cung cấp các thông tin gì?",
+            "answers": ["Kinh dộ", "Vĩ độ", "Cả kinh độ và vĩ độ", "Không có gì khác"],
+            "correct": "Cả kinh độ và vĩ độ"
+        },
+        {
+            "question": "Cột mốc trường sa nguyên mẫu nằm ở đâu?",
+            "answers": ["Quần đảo Trường Sa", "Quần đảo Hoàng Sa", "Mũi Cà Mau", "Mũi Sa Vĩ"],
+            "correct": "Quần đảo Trường Sa"
+        },
+        {
+            "question": "Chiều cao của cột mốc nguyên mẫu?",
+            "answers": ["5-10m", "10-15m","15-30m", "hơn 30m"],
+            "correct": "15-30m"
+        },
+        {
+            "question": "Kinh độ và vĩ độ được ghi trên cột mốc trường sa?",
+            "answers": ["8 độ 38 phút 30 giây/ 111 độ 55 phút 55 giây", "21 độ 2 phút 12 giây/ 105 độ 50 phút 5 giây", "16 độ 28 phút 17 giây/ 107 độ 34 phút 55 giây", "10 độ 46 phút 38 giây/ 106 độ 41 phút 44 giây"],
+            "correct": "8 độ 38 phút 30 giây/ 111 độ 55 phút 55 giây"
+        },
+        {
+            "question": "Các mô hình cột mốc trường sa đã được xây dựng ở những đâu?",
+            "answers": ["Miền Bắc", "Miền Nam", "Miền Trung", "Khắp cả nước"],
+            "correct": "Khắc cả nước"
+        },
+        {
+            "question": "Ý nghĩa cột mốc trường sa?",
+            "answers": ["Đề cao tinh thần hiếu của dân tộc", "Biểu tượng chủ quyền và sự hiện diện của Việt Nam ở quần đảo Trường Sa", "Không có ý nghĩa gì đặc biệt", "Vinh danh công lao của cha mẹ"],
+            "correct": "Biểu tượng chủ quyền và sự hiện diện của Việt Nam ở quần đảo Trường Sa"
+        },
+        {
+            "question": "Tại sao lại xây dựng mô hình cột mốc trường sa trên nhiều địa điểm khắp cả nước?",
+            "answers": ["Giáo dục, nâng cao ý thức cộng đồng", "Khẳng định chủ quyền trên đất liền của đất nước", "Do nhà nước yêu cầu", "Không có lí do gì cả"],
+            "correct": "Giáo dục, nâng cao ý thức cộng đồng"
+        },
+        {
+            "question": "Quần đảo Trường sa hiện nay thuộc sở hữu của nước nào?",
+            "answers": ["Việt Nam", "Trung Quốc", "Malaysia", "Là vùng tranh chấp của nhiều nước"],
+            "correct": "Là vùng tranh chấp của nhiều nước"
+        },
+        {
+            "question": "Quần đảo Trường sa nằm ở đâu?",
+            "answers": ["Phía Nam Cà Mau", "Ấn Độ Dương", "Phía Đông Biển Đông", "Phía Tây Việt Nam"],
+            "correct": "Phía Đông Biển Đông"
+        },
+        {
+            "question": "Cột mốc trường sa thường được làm bằng gì?",
+            "answers": ["Tre, nứa", "Gỗ", "Đá hoặc bê tông", "Gạch"],
+            "correct": "Đá hoặc bê tông"
+        }
+    ],
+    "nhasannguoitay": [
+        {
+            "question": "Nhà sàn người Tày của dân tộc nào?",
+            "answers": ["Dân tộc Kinh", "Dân tộc Tày", "Dân tộc Mường", "Dân tộc Thái"],
+            "correct": "Dân tộc Tày"
+        },
+        {
+            "question": "Vật liệu chủ yếu để làm nhà?",
+            "answers": ["Bê tông cốt thép", "Gỗ, tre, nứa", "Rơm, rạ", "Gạch"],
+            "correct": "Gỗ, tre, nứa"
+        },
+        {
+            "question": "Mái nhà được làm bằng gì?",
+            "answers": ["Lá cọ", "Rơm, rạ", "Tôn", "Lá chuối"],
+            "correct": "Lá cọ"
+        },
+        {
+            "question": "Tại sao người Tày xưa lại ở nhà sàn?",
+            "answers": ["Tránh thú dữ, rắn rết", "Đảm bảo khô ráo, thoáng mát", "Cả 2 ý trên", "Vì ở cao sướng hơn ở thấp"],
+            "correct": "Cả 2 ý trên"
+        },
+        {
+            "question": "Phòng chính của ngôi nhà thường được dùng làm gì?",
+            "answers": ["Nấu ăn", "Ăn uống", "Làm việc thủ công", "Tất cả ý trên"],
+            "correct": "Tất cả ý trên"
+        },
+        {
+            "question": "Tại sao nhà thường có nhiều cửa ra vào và cửa sổ?",
+            "answers": ["Có nhiều đường thoát khi xảy ra chuyện", "Thông gió, đón ánh nắng", "Để có thể đón khách từ nhiều phía", "Có nhiều chỗ ngắm cảnh bên ngoài nhà"],
+            "correct": "Thông gió, đón ánh nắng"
+        },
+        {
+            "question": "Ý nghĩa chiếc bếp lửa trong nhà sàn của người Tày?",
+            "answers": ["Nơi giữ ấm trong mùa đông", "Nơi nấu nướng", "Nơi tụ họp, sum vầy", "Tất cả ý trên"],
+            "correct": "Tất cả ý trên"
+        },
+        {
+            "question": "Chức năng của nhà sàn?",
+            "answers": ["Chỉ là nơi để ở", "Là trung tâm cuộc sống gia đình và cộng đồng", "Vừa là nơi để ở, vừa là trung tâm cuộc sống gia đình và cộng đồng"],
+            "correct": "Vừa là nơi để ở, vừa là trung tâm cuộc sống gia đình và cộng đồng"
+        },
+        {
+            "question": "Nhà sàn thường chia thành các phòng để làm gì?",
+            "answers": ["Có nhiều phòng để thể hiện đẳng cấp", "Để làm các phòng riêng biệt cho từng thế hệ, đồng thời làm khu vực chung và bếp lửa trung tâm", "Không làm gì cả", "Để làm thú dữ bị lạc khi vào nhà sàn"],
+            "correct": "Để làm các phòng riêng biệt cho từng thế hệ, đồng thời làm khu vực chung và bếp lửa trung tâm"
+        },
+        {
+            "question": "Người Tày chủ yếu sinh sống ở đâu?",
+            "answers": ["Phía Nam Việt Nam", "Vùng núi Tây Nguyên", "Các miền gần biển", "Vùng núi thấp phía Bắc"],
+            "correct": "Vùng núi thấp phía Bắc"
+        }
+    ]
+}    
