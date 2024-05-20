@@ -25,7 +25,7 @@ export default function Map({navigation}){
                 >
                     <Canvas>
                         <OrbitControls enableRotate={false}/>
-                        <ambientLight/>
+                        <ambientLight intensity={2}/>
                         <Suspense style={styles.map}>
                             <Vietnam_Map
                                 scale={1.5} 
@@ -50,7 +50,7 @@ export default function Map({navigation}){
                                 onClick={()=> {navigation.navigate("Info", {name: CONST.ONE_PILLAR_PAGODA_NAME})}}
                             >
                                 Chùa một cột
-                                <meshBasicMaterial color="red" />
+                                <meshBasicMaterial color="black" />
                             </Text3D>
                             <Marker 
                                 scale={0.1}
@@ -76,7 +76,7 @@ export default function Map({navigation}){
                                 onClick={()=> {navigation.navigate("Info", {name: CONST.HO_CITADEL_NAME})}}
                             >
                                 Thành nhà Hồ
-                                <meshBasicMaterial color="red" />
+                                <meshBasicMaterial color="black" />
                             </Text3D>
                             <Marker 
                                 scale={0.1}
@@ -96,18 +96,44 @@ export default function Map({navigation}){
                                 bevelSegments={3}
                                 bevelEnabled
                                 bevelThickness={0.1}
-                                position={[6, -15.4, 0.1]}
+                                position={[5.7, -15.2, 0.1]}
                                 size={2}
                                 height={0}
                                 onClick={()=>{navigation.navigate("Info", {name: CONST.FLAGPOLE_NAME})}}
                             >
                                 Cột cờ Trường Sa
-                                <meshBasicMaterial color="red" />
+                                <meshBasicMaterial color="black" />
                             </Text3D>
                             <Marker 
                                 scale={0.1}
-                                position={[6, -15.7, 0.1]}
+                                position={[5.7, -15.5, 0.1]}
                                 onClick={()=>{navigation.navigate("Info", {name: CONST.FLAGPOLE_NAME})}}
+                            />
+                        </Suspense>
+                        
+                        {/* Tay House */}
+                        <Suspense 
+                            style={styles.marker}
+                            onClick={()=>{navigation.navigate("Info", {name: CONST.TAY_HOUSE_NAME})}}
+                        >
+                            <Text3D
+                                font={fontPath}
+                                scale={0.1}
+                                bevelSegments={3}
+                                bevelEnabled
+                                bevelThickness={0.1}
+                                position={[-2.5, 2.5, 0.1]}
+                                size={2}
+                                height={0}
+                                onClick={()=>{navigation.navigate("Info", {name: CONST.TAY_HOUSE_NAME})}}
+                            >
+                                Nhà sàn người Tày
+                                <meshBasicMaterial color="black" />
+                            </Text3D>
+                            <Marker 
+                                scale={0.1}
+                                position={[-2.5, 2.2, 0.1]}
+                                onClick={()=>{navigation.navigate("Info", {name: CONST.TAY_HOUSE_NAME})}}
                             />
                         </Suspense>
                     </Canvas>
