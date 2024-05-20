@@ -1,14 +1,9 @@
 import React, {Component} from "react";
 import { Text, View, StyleSheet, Dimensions, ImageBackground, Image, Button, Alert} from "react-native";
-import LinearGradient from "react-native-linear-gradient";
+//import LinearGradient from "react-native-linear-gradient";
 
 export default function Home({navigation}) {
 	return(
-		<LinearGradient 
-			start={{x: 0, y: 0}} end={{x: 1, y: 0}} 
-			colors={['#7cb0f8', '#e75fa1', '#f89d81', "#f29b91", "#e561c2", "#fdd78c", "#bdde63"]}
-			style={styles.container}>
-
 			<View style={styles.glassContainer}>
 				<View style={styles.navbar}>
 					<View style={styles.logo}>
@@ -40,7 +35,6 @@ export default function Home({navigation}) {
 					</View>
 				</View>
 			</View>
-		</LinearGradient>
 	);
 }
 

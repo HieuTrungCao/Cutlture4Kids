@@ -6,13 +6,15 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './src/Home';
 import Map from './src/Map';
 import Info from './src/Info';
+import Gameplay from './src/Gameplay';
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
     <NavigationContainer style={styles.container}>
-		<Stack.Navigator initialRouteName='Home'>
+		
+		<Stack.Navigator initialRouteName='Home'>{/* //Default: Home */ }
 			<Stack.Screen 
 				name="Home" 
 				component={Home}
@@ -30,6 +32,13 @@ export default function App() {
 			<Stack.Screen 
 				name='Info' 
 				component={Info}
+				options={{
+					headerShown: false
+				}}
+			/>
+			<Stack.Screen 
+				name="Gameplay" 
+				component={Gameplay}
 				options={{
 					headerShown: false
 				}}
