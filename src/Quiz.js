@@ -20,18 +20,17 @@ export default function Quiz({ navigation, route }) {
     switch (param) {
       case "OnePillarPagoda":
         data = db.chua1cot;
-      case "Ho Citadel":
+      case "HoCitadel":
         data = db.thanhnhaho;
       case "Flagpole":
         data = db.cotcotruongsa;
-      case "Tay House":
+      case "TayHouse":
         data = db.nhasannguoitay;
     }
   };
 
+  console.log(route.params.name);
   checkSite(route.params.name);
-
-  data = db.thanhnhaho;
 
   const checkAns = (answer) => {
     const correctAns = data[currentQuestion].correct;
@@ -89,7 +88,9 @@ const styles = StyleSheet.create({
     marginTop: 30,
   },
   answerItem: {
-    height: 50,
+    height: "auto",
+    minHeight: 50,
+    justifyContent: "center",
   },
   textStyle: {
     fontSize: 24,
